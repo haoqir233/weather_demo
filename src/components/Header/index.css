@@ -1,0 +1,22 @@
+.header{
+    width: 100%;
+    background-color: #ffffff;
+}
+a{
+    margin-left: 40px;
+}
+.breadcrumb{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+.breadcrumb-title {
+    text-align: center;
+    font-size: 18px;
+}
+.weather{
+    text-align: right;
+}
+.date{
+    margin-right: 10px;
+}
