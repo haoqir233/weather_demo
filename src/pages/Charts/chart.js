@@ -89,6 +89,7 @@ export default class Cas extends Component {
                 "cityName": this.state.cityClick[1],
             }
         }
+
         axios.post(url, param).then((res) => {
             let data1 = res.data;
             // console.log(data1);
@@ -138,6 +139,7 @@ export default class Cas extends Component {
             console.error(err);
         })
     }
+
 
     render() {
         //天气纵轴数据
